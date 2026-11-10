@@ -1,0 +1,15 @@
+{
+  "$comment": "Stable entry point for this organization. All URLs below stay valid. Every path under data/ is also served under site.",
+  "organization": "Elektrizitätswerk Wangen",
+  "slug": "elektrizitaetswerk-wangen",
+  "vse_id": "CH10357012345",
+  "website": "https://www.ewwangensz.ch",
+  "license": "CC-BY-4.0",
+  "repository": "https://github.com/Strompreise-Schweiz/strompreise-schweiz.github.io/tree/main/utilities/elektrizitaetswerk-wangen",
+  "site": "https://data.strompreise-schweiz.ch/elektrizitaetswerk-wangen/",
+  "static": {
+    "current": null,
+    "years": {}
+  },
+  "dynamic": []
+}

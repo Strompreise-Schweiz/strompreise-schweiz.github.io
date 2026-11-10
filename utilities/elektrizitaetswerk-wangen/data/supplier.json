@@ -1,0 +1,29 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Strompreise-Schweiz/tariff-core/main/schemas/supplier/v1.schema.json",
+  "name": "Elektrizitätswerk Wangen",
+  "location": {
+    "address": {
+      "street": "Zürcherstrasse 26",
+      "postal_code": "8855",
+      "city": "Wangen",
+      "canton": "SZ",
+      "country": "CH"
+    },
+    "coordinates": {
+      "latitude": 47.191978573214804,
+      "longitude": 8.889996028240303
+    },
+    "map": {
+      "type": "google",
+      "url": "https://maps.app.goo.gl/Xcn8hLjTpRsvqxmN6"
+    }
+  },
+  "uid": "CHE-115.249.566",
+  "vse_id": "CH10357012345",
+  "website": "https://www.ewwangensz.ch",
+  "email": "kundendienst@ewwangensz.ch",
+  "logo": {
+    "path": "./logo.png",
+    "mime_type": "image/png"
+  }
+}

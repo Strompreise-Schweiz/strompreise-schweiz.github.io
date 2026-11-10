@@ -1,0 +1,28 @@
+name: Deploy site
+
+# This repo is the organization site with the own domain. Commits by GitHub Actions
+# do not start push workflows, so the site is also rebuilt after each publish run.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "utilities/**"
+      - "repositories.json"
+  workflow_run:
+    workflows: ["Publish static tariffs"]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    uses: Strompreise-Schweiz/tariff-core/.github/workflows/reusable-pages.yml@main

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Strompreise-Schweiz/tariff-core/main/schemas/source-config/v1.schema.json",
+  "slug": "elektrizitaetswerk-wangen",
+  "name": "Elektrizitätswerk Wangen",
+  "country": "CH",
+  "website": "https://www.ewwangensz.ch",
+  "vse_id": "CH10357012345",
+  "data_license": "CC-BY-4.0",
+  "dynamic": [],
+  "static": {
+    "sources": []
+  }
+}

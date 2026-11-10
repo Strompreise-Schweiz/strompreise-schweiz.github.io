@@ -1,0 +1,20 @@
+{
+  "$comment": "Utilities with an own repo. build_site.py adds them to the overall index.json. A utility is either listed here or has a folder under utilities/, never both.",
+  "repositories": [
+    {
+      "slug": "bkw",
+      "name": "BKW Energie AG",
+      "vse_id": "CH10222012345"
+    },
+    {
+      "slug": "ekz",
+      "name": "EKZ (Elektrizitätswerke des Kantons Zürich)",
+      "vse_id": "CH10153012345"
+    },
+    {
+      "slug": "groupe-e",
+      "name": "Groupe E",
+      "vse_id": "CH10063012345"
+    }
+  ]
+}

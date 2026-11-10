@@ -1,0 +1,27 @@
+name: Publish static tariffs
+
+# One run publishes every utility under utilities/.
+on:
+  schedule:
+    # Tariffs are due by 31 August, but utilities also correct them later.
+    - cron: "20 6 * * 1"
+      timezone: "Europe/Zurich"
+    - cron: "20 6 1-15 9 *"
+      timezone: "Europe/Zurich"
+  push:
+    branches: [main]
+    paths:
+      - "utilities/*/curation/**"
+      - "utilities/*/config/source.json"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-static
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    uses: Strompreise-Schweiz/tariff-core/.github/workflows/reusable-fetch-static.yml@main
