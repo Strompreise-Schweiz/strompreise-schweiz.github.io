@@ -12,9 +12,20 @@ including those with their own repo:
 | Every utility | [`https://data.strompreise-schweiz.ch/index.json`](https://data.strompreise-schweiz.ch/index.json) |
 | One utility | `https://data.strompreise-schweiz.ch/<slug>/index.json` |
 | Its current tariffs | `https://data.strompreise-schweiz.ch/<slug>/tariffs/current.json` |
+| Status of all utilities | [`https://data.strompreise-schweiz.ch/status.html`](https://data.strompreise-schweiz.ch/status.html) |
 
 The format is the VSE format with additional fields, see
 [`SCHEMA.md`](https://github.com/Strompreise-Schweiz/tariff-core/blob/main/SCHEMA.md). Prices exclude VAT.
+
+
+## VSE conformance
+
+Whether the tariff file each utility publishes follows the [OpenAPI definitions of the VSE](https://github.com/Strompreise-Schweiz/tariff-core/tree/main/schemas/vse).
+Details in `utilities/<slug>/data/vse-conformance.json`. Add a row when adding a utility.
+
+| Utility | VSE 1.0.0 | VSE 1.0.1 |
+|---|---|---|
+| [`elektrizitaetswerk-wangen`](utilities/elektrizitaetswerk-wangen/) | [![VSE 1.0.0](https://img.shields.io/endpoint?url=https%3A%2F%2Fdata.strompreise-schweiz.ch%2Felektrizitaetswerk-wangen%2Fbadges%2Fvse-1.0.0.json)](utilities/elektrizitaetswerk-wangen/data/vse-conformance.json) | [![VSE 1.0.1](https://img.shields.io/endpoint?url=https%3A%2F%2Fdata.strompreise-schweiz.ch%2Felektrizitaetswerk-wangen%2Fbadges%2Fvse-1.0.1.json)](utilities/elektrizitaetswerk-wangen/data/vse-conformance.json) |
 
 ## Hub or own repo
 
