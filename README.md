@@ -9,7 +9,7 @@ including those with their own repo:
 
 | What | URL |
 |---|---|
-| Every utility | `https://data.strompreise-schweiz.ch/index.json` |
+| Every utility | [`https://data.strompreise-schweiz.ch/index.json`](https://data.strompreise-schweiz.ch/index.json) |
 | One utility | `https://data.strompreise-schweiz.ch/<slug>/index.json` |
 | Its current tariffs | `https://data.strompreise-schweiz.ch/<slug>/tariffs/current.json` |
 
