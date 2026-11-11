@@ -11,5 +11,7 @@
     "current": null,
     "years": {}
   },
+  "vse_conformance": "https://raw.githubusercontent.com/Strompreise-Schweiz/strompreise-schweiz.github.io/main/utilities/elektrizitaetswerk-wangen/data/vse-conformance.json",
+  "status": "https://raw.githubusercontent.com/Strompreise-Schweiz/strompreise-schweiz.github.io/main/utilities/elektrizitaetswerk-wangen/data/status.json",
   "dynamic": []
 }

@@ -1,0 +1,9 @@
+{
+  "$comment": "Whether the files follow the OpenAPI definitions of the VSE. sources are the files as the utility published them, published the files of this project. Information only: it does not block publication.",
+  "definitions": {
+    "1.0.0": "https://raw.githubusercontent.com/Strompreise-Schweiz/tariff-core/main/schemas/vse/ch-electricity-tariffs-openapi-1.0.0.yaml",
+    "1.0.1": "https://raw.githubusercontent.com/Strompreise-Schweiz/tariff-core/main/schemas/vse/ch-electricity-tariffs-openapi-1.0.1.yaml"
+  },
+  "sources": [],
+  "published": []
+}

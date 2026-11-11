@@ -1,0 +1,10 @@
+{
+  "$comment": "Summary of the checks of this utility, for https://data.strompreise-schweiz.ch/status.html.",
+  "utility": "Elektrizitätswerk Wangen",
+  "slug": "elektrizitaetswerk-wangen",
+  "years": [],
+  "vse": {
+    "sources": [],
+    "published": []
+  }
+}
