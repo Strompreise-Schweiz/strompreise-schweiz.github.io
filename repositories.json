@@ -1,5 +1,5 @@
 {
-  "$comment": "Utilities with an own repo. build_site.py adds them to the overall index.json. A utility is either listed here or has a folder under utilities/, never both.",
+  "$comment": "Utilities with an own repo. build-site.ts adds them to the overall index.json. A utility is either listed here or has a folder under utilities/, never both.",
   "repositories": [
     {
       "slug": "bkw",
