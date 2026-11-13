@@ -3,6 +3,7 @@
   "organization": "Elektrizitätswerk Wangen",
   "slug": "elektrizitaetswerk-wangen",
   "vse_id": "CH10357012345",
+  "elcom_id": 420,
   "website": "https://www.ewwangensz.ch",
   "license": "CC-BY-4.0",
   "repository": "https://github.com/Strompreise-Schweiz/strompreise-schweiz.github.io/tree/main/utilities/elektrizitaetswerk-wangen",
