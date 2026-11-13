@@ -4,17 +4,20 @@
     {
       "slug": "bkw",
       "name": "BKW Energie AG",
-      "vse_id": "CH10222012345"
+      "vse_id": "CH10222012345",
+      "elcom_id": 36
     },
     {
       "slug": "ekz",
       "name": "EKZ (Elektrizitätswerke des Kantons Zürich)",
-      "vse_id": "CH10153012345"
+      "vse_id": "CH10153012345",
+      "elcom_id": 486
     },
     {
       "slug": "groupe-e",
       "name": "Groupe E",
-      "vse_id": "CH10063012345"
+      "vse_id": "CH10063012345",
+      "elcom_id": 609
     }
   ]
 }
